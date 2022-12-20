@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ole-Ole</title>
+    <link rel="icon" href="/img/iconlogolight.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <img src="/img/logo-light.png" alt="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto fw-700">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="/index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"> Produk</a>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Keranjang</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Notifikasi</a>
+                    </li>
+                </ul>
+                <div class="nav-button">
+                    <a class="btn btn-oren" type="submit" href="#">Masuk</a>
+                    <a class="btn btn-outline-oren" type="submit" href="#">Daftar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="m-nav">
+            <h4 class="fw-700">Detail Produk</h4>
+        </div>
+
+        <div class="row d-flex justify-content-between">
+
+            <div class="col col-4 detail-produk">
+                <img src="/img/Klanting.png" alt="" width="400px">
+            </div>
+
+            <div class="col col-5 detail-produk">
+                <h1><b>Klanting</b></h1>
+                <div class="row d-flex flex-row">
+
+                    <div class="col-3">
+                        <p><b>Terjual</b> 30</p>
+                    </div>
+
+                    <div class="col">
+                        <p><i class="bi bi-star-fill" style="color: #FFD600;"></i>4,8</p>
+                    </div>
+                </div>
+
+                <h1><b>Rp13.000</b></h1>
+                <h5 class="color-oren fw-700">Detail</h5>
+                <p>Berat Satuan : 120gram</p>
+                <p>Deskripsi :</p>
+                <p>Klanting tergolong sebagai makanan ringan yang terbuat dari bahan dasar ketela pohon. Berbentuk
+                    layaknya angka delapan, dengan tekstur yang renyah dan gurih membuat cemilan ini cukup digemari oleh
+                    kebanyakan orang. Makanan ini juga cocok dijadikan sebagai oleh-oleh saat berkunjung ke Purwokerto.
+                </p>
+            </div>
+
+            <div class="col col-3 d-flex flex-column justify-content-between aside detail-produk">
+
+                <h6 class="fw-700 text-center mb-2">Atur jumlah dan catatan</h6>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="d-flex align-items-center">
+                            <button type="button" class="btn btn-light" id="min">-</button>
+                            <p class="my-auto mx-3" id="jumlah">0</p>
+                            <button type="button" class="btn btn-light" id="plus">+</button>
+                        </div>
+                    </div>
+                    <div class="col-6 d-flex align-items-center">
+                        <p class="my-auto">Stok : Tersisa <span class="color-oren" id="stok">10</span></p>
+                    </div>
+                </div>
+
+                <p>Masukan catatan</p>
+
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 100px"></textarea>
+                    <!-- <label for="floatingTextarea2">Comments</label> -->
+                </div>
+
+                <div class="row d-flex flex-row">
+
+                    <div class="row d-flex flex-row">
+
+                        <div class="col">
+                            <p><b>Subtotal</b></p>
+                        </div>
+
+                        <div class="col d-flex justify-content-end">
+                            <p class="color-oren"><b>Rp13.000</b></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="d-flex flex-column mx-3">
+                    <a type="button" class="btn btn-oren mb-2">+Keranjang</a>
+                    <a type="button" href="/pages/checkout.html" class="btn btn-outline-oren">Beli Sekarang</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer overflow-hidden margin-top">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col col-8">
+                    <img src="/img/logo-dark.png" alt="">
+                    <p class="mt-2">Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade
+                        bel när feras
+                        redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat. Viktiga poddradio har un mad
+                        och
+                        inde. </p>
+                    <img src="/img/medsos.png" alt="">
+                </div>
+                <div class="col col-1">
+
+                    <ul style="list-style: none;">
+                        <p><b>Pages</b></p>
+                        <li>Home</li>
+                        <li>Produk</li>
+                        <li>Keranjang</li>
+                        <li>Notifikasi</li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <ul style="list-style: none;">
+                        <p><b>Contact</b></p>
+
+                        <li><i class="bi bi-telephone-fill me-2"></i>(406) 555-0120</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i>oleolepwt@gmail.com</li>
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>Kober</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous">
+    </script>
+
+    <script>
+        let min = document.getElementById('min');
+        let plus = document.getElementById('plus');
+        let jumlah = document.getElementById('jumlah');
+        let stok = document.getElementById('stok');
+        let val = 0;
+        let sisa = 10;
+
+
+        min.addEventListener('click', () => {
+            val--;
+            sisa++;
+            jumlah.innerText = val;
+            stok.innerText = sisa;
+        })
+        plus.addEventListener('click', () => {
+            val++;
+            sisa--;
+            jumlah.innerText = val;
+            if (sisa === 0) {
+                stok.innerText = "Stok Habis";
+            } else {
+                stok.innerText = sisa;
+            }
+
+        })
+
+    </script>
+</body>
+
+</html>

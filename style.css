@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Poppins&display=swap');
+
+*,
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    background-color: #F7F7F7;
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.2));
+}
+
+.navbar-nav {
+    margin-right: 5rem;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.navbar-nav li a {
+    color: black
+}
+
+.navbar-nav li a:hover {
+    color: #D96409;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-button a {
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 6rem;
+    margin-left: 4px;
+}
+
+.m-nav {
+    margin-top: 120px;
+}
+
+.home__img {
+    width: 100%;
+    height: auto;
+    margin-top: 4.9rem;
+}
+
+.btn-oren {
+    background-color: #D96409;
+    color: #F7F7F7;
+}
+
+.btn-oren:hover{
+    background-color: #D96409;
+    color: #F7F7F7;
+    opacity: 0.7;
+}
+
+.btn-outline-oren {
+    background-color: #F7F7F7;
+    color: #D96409;
+    border: 1px solid #D96409;
+}
+
+.btn-outline-oren:hover {
+    background-color: #D96409;
+    color: #F7F7F7;
+}
+
+.color-oren {
+    color: #D96409;
+}
+
+.color-yellow {
+    color: #FF8800;
+}
+
+bg-tp{
+    background-color: transparent;
+    color: #212121;
+}
+
+.fw-500{
+    font-weight: 500;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.margin-top{
+    margin-top: 185px;
+}
+/* Detail Produk */
+
+.aside {
+    background-color: #FDFDFD;
+    border-radius: 0px 0px 10px 10px;
+    filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.2));
+    padding: 40px 25px ;
+}
+
+/* Page Payment Sukses */
+
+.payment {
+    margin-top: 8rem;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #212121;
+    color:#F7F7F7;
+}
+
+@media screen and(max-width:575px) {
+    .detail-produk{
+        width: 100%;
+    }
+}

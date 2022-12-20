@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ole-Ole</title>
+    <link rel="icon" href="/img/iconlogolight.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <img src="/img/logo-light.png" alt="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto fw-700">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="/index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#"> Produk</a>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Keranjang</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Notifikasi</a>
+                    </li>
+                </ul>
+                <div class="nav-button">
+                    <a class="btn btn-oren" type="submit" href="#">Masuk</a>
+                    <a class="btn btn-outline-oren" type="submit" href="#">Daftar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Teks Checkout -->
+    <div class="container">
+        <div>
+            <h3 class="m-nav fw-700"> Checkout </h3>
+        </div>
+
+
+
+        <!-- Detail Checkout -->
+
+        <div class="row">
+            <div class="col-8">
+                <div class="d-flex">
+                    <img src="/img/Klanting.png" alt="" width="100px">
+                    <div class="ms-4">
+                        <h4 class="fw-700">Klanting</h4>
+                        <h3 class="color-oren"><b>Rp13.000</b></h3>
+                    </div>
+                </div>
+
+                <p class="fw-700 my-5">Informasi Pengiriman</p>
+
+                <div>
+                    <label class="fw-700">Alamat</label>
+                    <div class="card mb-3" style="width: 50rem; height: 5rem;"></div>
+
+                    <label class="fw-700">Metode Pembayaran</label>
+                    <select class="form-select mb-3" aria-label="Default select example" style="width: 50rem;">
+                        <option selected>Pilih Menu Pembayaran</option>
+                        <option value="cod">Cash on Delivery (COD)</option>
+                    </select>
+
+                    <label class="fw-700">Jasa Pengiriman</label>
+                    <select class="form-select mb-3" aria-label="Default select example" style="width: 50rem;">
+                        <option selected>Pilih Jasa Pengiriman</option>
+                        <option value="gosend">Go Send</option>
+                        <option value="sicepat">SiCepat </option>
+                        <option value="jnt">J&T Express</option>
+                        <option value="jne">JNE</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="fw-700">Ringkasan Belanja</h5>
+                        <div class="row my-5" style="line-height: 15px;">
+                            <div class="col-7">
+                                <p>Total Harga Barang</p>
+                                <p>Ongkos Kirim</p>
+                                <p>Biaya Jasa Aplikasi</p>
+                                <h5 class="mt-5">Total Tagihan</h5>
+                            </div>
+
+                            <div class="col color-oren fw-700">
+                                <p id="harga"> Rp13.000</p>
+                                <p id="ongkir"> Rp4.000</p>
+                                <p id="jasa"> Rp1.000</p>
+                                <h5 class="mt-5" id="total">0</h5>
+                            </div>
+                        </div>
+
+                        <div class="d-flex flex-column ">
+                            <a type="button" href="/pages/sukses.html" class="btn btn-oren mb-2">Bayar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <!-- Footer -->
+
+    <div class="footer overflow-hidden margin-top">
+
+        <div class="container my-5">
+            <div class="row">
+                <div class="col col-8">
+                    <img src="/img/logo-dark.png" alt="">
+                    <p class="mt-2">Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska. Jinesade
+                        bel när feras
+                        redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat. Viktiga poddradio har un mad
+                        och
+                        inde. </p>
+                    <img src="/img/medsos.png" alt="">
+                </div>
+                <div class="col col-1">
+
+                    <ul style="list-style: none;">
+                        <p><b>Pages</b></p>
+                        <li>Home</li>
+                        <li>Produk</li>
+                        <li>Keranjang</li>
+                        <li>Notifikasi</li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <ul style="list-style: none;">
+                        <p><b>Contact</b></p>
+
+                        <li><i class="bi bi-telephone-fill me-2"></i>(406) 555-0120</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i>oleolepwt@gmail.com</li>
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>Kober</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+
+</body>

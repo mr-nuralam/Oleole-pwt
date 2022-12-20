@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ole-Ole</title>
+    <link rel="icon" href="/img/iconlogolight.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <img src="/img/logo-light.png" alt="logo" />
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto fw-700">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" aria-current="page" href="/index.html">Beranda</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#produk-kami"> Produk</a>
+                    </li>
+
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#">Keranjang</a>
+                    </li>
+                    <li class="nav-item me-5">
+                        <a class="nav-link" href="#">Notifikasi</a>
+                    </li>
+                </ul>
+                <div class="nav-button">
+                    <a class="btn btn-oren" type="submit" href="/login-signup/login.html">Masuk</a>
+                    <a class="btn btn-outline-oren" type="submit" href="/login-signup/daftar.html">Daftar</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container m-nav">
+
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-header p-3" style="background-color: #414141; color: #F7F7F7;">
+                        <div class="row">
+
+                            <div class="col-2 me-2">
+                                <i class="bi bi-person-circle fs-1"></i>
+                            </div>
+
+                            <div class="col-9 mt-2" style="line-height: 10px;">
+                                <h5 class="fw-700">Zahrotul Mustafidah</h5>
+                                <p class="text-muted">Edit Profil</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <a class="" href="/pages/profile.html" style="text-decoration: none;">
+                            <h6 class="text-dark fw-700"><i class="bi bi-person me-3 fs-5 fw-700"></i>Profil</h6>
+                        </a>
+                        <a class="" href="/pages/keamanan.html" style="text-decoration: none;">
+                            <h6 class="text-dark fw-700"><i class="bi bi-lock me-3 fs-5 fw-700"></i>Keamanan</h6>
+                        </a>
+                        <a class="" href="/pages/notifikasi.html" style="text-decoration: none;">
+                            <h6 class="color-oren fw-700"><i class="bi bi-bell me-3 fs-5 fw-700"></i>Notifikasi</h6>
+                        </a>
+                        <a class="" href="" style="text-decoration: none;">
+                            <h6 class="text-dark fw-700"><i class="bi bi-shop me-3 fs-5 fw-700"></i>Menu Penjual</h6>
+                        </a>
+                        <a class="" href="" style="text-decoration: none;">
+                            <h6 class="text-dark fw-700"><i class="bi bi-box-arrow-left me-3 fs-5 fw-700"></i>Keluar
+                            </h6>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-header px-5 pt-4 pb-1" style="background-color: #414141; color: #F7F7F7;">
+
+                        <h5>Notifikasi</h5>
+                        <p class="text-muted">Lihat daftar dan status pesanan anda</p>
+
+                    </div>
+
+                    <div class="card-body px-5 py-4">
+
+                        <div class="row d-flex align-items-center px-2 py-3 aside">
+                            <div class="col-2">
+                                <img src="/img/bagelen.png" alt="" style="width: 125px; height: 100px;">
+                            </div>
+                            <div class="col-4" style="line-height: 5px;">
+                                <h3 class="fw-700">Bagelen</h3>
+                                <p class="text-muted">5 pcs</p>
+                                <p><i class="bi bi-shop me-2"></i>Cemily Toko</p>
+                            </div>
+                            <div class="col mt-3" style="line-height: 5px;">
+                                <p class="color-yellow fw-700">Status Pesanan</p>
+                                <p><i class="bi bi-truck me-2"></i>Sedang Dikirim</p>
+                                <p class="color-yellow fw-700">Total Harga</p>
+                                <p><i class="bi bi-currency-dollar me-2"></i>Rp75.000</p>
+                            </div>
+                            <div class="col">
+
+                                <a class="btn btn-oren px-4" type="submit" href="">Beli Lagi</a>
+
+                            </div>
+                        </div>
+
+                        <div class="card-body px-1 py-3">
+                            <div class="row d-flex align-items-center px-2 py-3 aside">
+                                <div class="col-2">
+                                    <img src="/img/tempe-mendoan.png" alt="" style="width: 125px; height: 100px;">
+                                </div>
+                                <div class="col-4" style="line-height: 5px;">
+                                    <h3 class="fw-700">Tempe Mendoan</h3>
+                                    <p class="text-muted">10 buah</p>
+                                    <p><i class="bi bi-shop me-2"></i>Dady Store</p>
+                                </div>
+                                <div class="col mt-3" style="line-height: 5px;">
+                                    <p class="color-yellow fw-700">Status Pesanan</p>
+                                    <p><i class="bi bi-box-seam me-2"></i>Diterima</p>
+                                    <p class="color-yellow fw-700">Total Harga</p>
+                                    <p><i class="bi bi-currency-dollar me-2"></i>Rp20.000</p>
+                                </div>
+                                <div class="col">
+
+                                    <a class="btn btn-oren px-4" type="submit" href="">Beli Lagi</a>
+
+                                </div>
+                            </div>
+
+                            <div class="card-body px-1 py-3">
+                                <div class="row d-flex align-items-center px-2 py-3 aside">
+                                    <div class="col-2">
+                                        <img src="/img/getuk.png" alt="" style="width: 125px; height: 100px;">
+                                    </div>
+                                    <div class="col-4" style="line-height: 5px;">
+                                        <h3 class="fw-700">Getuk Goreng</h3>
+                                        <p class="text-muted">500 gram</p>
+                                        <p><i class="bi bi-shop me-2"></i>Cemily Toko</p>
+                                    </div>
+                                    <div class="col mt-3" style="line-height: 5px;">
+                                        <p class="color-yellow fw-700">Status Pesanan</p>
+                                        <p><i class="bi bi-truck me-2"></i>Diterima</p>
+                                        <p class="color-yellow fw-700">Total Harga</p>
+                                        <p><i class="bi bi-currency-dollar me-2"></i>Rp15.000</p>
+                                    </div>
+                                    <div class="col">
+
+                                        <a class="btn btn-oren px-4" type="submit" href="">Beli Lagi</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="footer overflow-hidden margin-top">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col col-8">
+                    <img src="/img/logo-dark.png" alt="">
+                    <p class="mt-2">Lörem ipsum od ohet dilogi. Bell trabel, samuligt, ohöbel utom diska.
+                        Jinesade
+                        bel när feras
+                        redorade i belogi. FAR paratyp i muvåning, och pesask vyfisat. Viktiga poddradio har un
+                        mad
+                        och
+                        inde. </p>
+                    <img src="/img/medsos.png" alt="">
+                </div>
+                <div class="col col-1">
+
+                    <ul style="list-style: none;">
+                        <p><b>Pages</b></p>
+                        <li>Home</li>
+                        <li>Produk</li>
+                        <li>Keranjang</li>
+                        <li>Notifikasi</li>
+                    </ul>
+
+                </div>
+
+                <div class="col">
+                    <ul style="list-style: none;">
+                        <p><b>Contact</b></p>
+
+                        <li><i class="bi bi-telephone-fill me-2"></i>(406) 555-0120</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i>oleolepwt@gmail.com</li>
+                        <li><i class="bi bi-geo-alt-fill me-2"></i>Kober</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+
+</body>
+
+</html>
