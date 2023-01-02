@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Produk</title>
+    <link rel="icon" href="/img/iconlogolight.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar bg-dark navbar-expand-lg" id="mainNav">
+        <div class="container">
+            <img src="/img/logo-dark.png" alt="logo" />
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="row g-0">
+        <div class="col-md-2 bg-dark mt-2 pe-3 pt-4">
+            <ul class="nav flex-column ms-3 mb-5 mt-3">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#"><h6 class="color-oren fw-700"><i class="bi bi-speedometer2 me-2"></i>Dashboard</h6></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="../admin/data-produk.html"><i class="bi bi-box-seam me-2"></i>Data Produk</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="../admin/data-pelanggan.html"><i class="bi bi-person me-2"></i>Data Pelanggan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="../admin/data-pemesanan.html"><i class="bi bi-truck me-2"></i>Data Pemesanan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="../admin/login.html"><i class="bi bi-box-arrow-left me-2"></i>Keluar</a>
+                </li>
+            </ul> 
+        </div>
+          <div class="col-md-10 p-5 pt-5">
+            <h3>Tambah Data Produk</h3>
+
+            <div class="col">
+                <div class="card">
+                    <div class="card-body px-5 py-4 gap-3" style="background-color: #fdfdfd ;">
+                        <div class="row d-flex gap-3">
+            <form>
+                <div class="form-group row">
+                  <label for="inputNama" class="col-sm-2 col-form-label">Nama Produk</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputNama">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="formFile" class="col-sm-2 col-form-label">Gambar</label>
+                    <div class="col-sm-10">
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputHarga" class="col-sm-2 col-form-label">Harga</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="inputHarga">
+                    </div>
+                  </div>
+                <div class="form-group row">
+                  <label for="inputBerat" class="col-sm-2 col-form-label">Berat</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputBerat">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="inputStok" class="col-sm-2 col-form-label">Stok</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="inputStok">
+                  </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputDeskripsi" class="col-sm-2 col-form-label">Deskripsi</label>
+                    <div class="col-sm-10">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </div>
+                
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn text-white" style="background-color: #D96409 ;">Tambah Produk</button>
+                  </div>
+                </div>
+              </form>
+</head>
+<body>
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+        </script>
+</body>
+</html>
