@@ -43,6 +43,9 @@ body {
     margin-top: 120px;
 }
 
+.wrapper{
+    background-color: #EEEE;
+}
 .home__img {
     width: 100%;
     height: auto;
@@ -94,6 +97,17 @@ bg-tp{
 
 .margin-top{
     margin-top: 185px;
+}
+
+.display-4{
+    font-weight: bold;
+}
+
+.card-body-icon{
+    position: absolute;
+    left: 4px;
+    font-size: 60px;
+
 }
 /* Detail Produk */
 
